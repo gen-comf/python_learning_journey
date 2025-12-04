@@ -1,16 +1,25 @@
-# Python Learning Journey
+# Python Learning Journey 🐍
 
-Мой путь изучения Python. Здесь я сохраняю решения задач и учебные проекты.
+[![GitHub last commit](https://img.shields.io/github/last-commit/gen-comf/python_learning_journey)](https://github.com/gen-comf/python_learning_journey)
 
-## 📚 Содержание
-- [Поколение Python](generation_python/) — решения задач из курса
-- [Проекты](projects/) — мои учебные проекты (будут добавлены)
+Мой путь изучения Python от основ до веб-разработки на Django.
+
+## 📂 Структура проекта
+- **generation_python/** — решения задач из курса "Поколение Python"
+- **projects/** — учебные проекты (появятся позже)
+- **notes/** — конспекты и полезные материалы
+
+## 🎯 Текущие цели
+- [x] Создать репозиторий и настроить Git
+- [ ] Пройти курс "Поколение Python"
+- [ ] Изучить Django для бэкенд-разработки
+- [ ] Создать первый веб-проект
 
 ## 🛠 Технологии
 - Python 3.x
 - Git & GitHub
+- VS Code
 
-## 🎯 Цели
-1. Пройти курс "Поколение Python"
-2. Освоить Django для веб-разработки
-3. Создать портфолио проектов
+## 📈 Статистика
+![Top Language](https://img.shields.io/github/languages/top/gen-comf/python_learning_journey)
+![Repo Size](https://img.shields.io/github/repo-size/gen-comf/python_learning_journey)
