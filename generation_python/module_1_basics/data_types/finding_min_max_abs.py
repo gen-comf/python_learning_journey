@@ -3,13 +3,19 @@
 # 2) Абсолютная сумма. Программа должна вывести одно число – сумму модулей введённых чисел.
 
 
-a, b, c, d, e = float(input()), float(input()), float(input()), float(input()), float(input())
+a, b, c, d, e = (
+    float(input()),
+    float(input()),
+    float(input()),
+    float(input()),
+    float(input()),
+)
 
 x = min(a, b, c, d, e)
 y = max(a, b, c, d, e)
 
-print('Наименьшее число =', x)
-print('Наибольшее число =', y)
+print("Наименьшее число =", x)
+print("Наибольшее число =", y)
 
 sum = abs(a) + abs(b) + abs(c) + abs(d) + abs(e)
 

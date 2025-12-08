@@ -10,7 +10,9 @@
 
 a, b, c = float(input()), float(input()), float(input())
 
-D = (b**2) - (4 * a * c)    # Вычисляем дискриминант (D<0 - нет корней, D=0 - 1 корень, D>0 - 2корня)
+D = (b**2) - (
+    4 * a * c
+)  # Вычисляем дискриминант (D<0 - нет корней, D=0 - 1 корень, D>0 - 2корня)
 
 from math import sqrt
 
@@ -25,4 +27,3 @@ elif D > 0:
     else:
         print((-b - sqrt(D)) / (2 * a))
         print((-b + sqrt(D)) / (2 * a))
-        
