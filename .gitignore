@@ -17,3 +17,9 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Тестовые файлы для текущих задач (не коммитить)
+*/test_current.py
+
+# Персональные reminder-файлы
+context_reminder.md
