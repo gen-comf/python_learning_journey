@@ -23,3 +23,6 @@ Thumbs.db
 
 # Персональные reminder-файлы
 context_reminder.md
+
+# Универсальный тестовый файл (в корне loops/)
+generation_python/module_1_basics/loops/test_current.py
