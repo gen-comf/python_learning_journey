@@ -68,7 +68,7 @@ for bull in range(1, 101):
                     print('bull =', bull, 'cow =', cow, 'calf =', calf)
 
 
-print("=== Задача 7:Гипотеза Эйлера о сумме степеней")
+print("=== Задача 8:Гипотеза Эйлера о сумме степеней")
 for a in range(1, 151):      
     a5 = a ** 5        
     for b in range(a, 151):          
