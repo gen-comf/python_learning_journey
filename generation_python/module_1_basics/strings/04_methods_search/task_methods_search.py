@@ -47,6 +47,18 @@ else:
 
 
 
+print("=== Задача 6: Самый частотный символ")
+s = input()
+
+most_common = s[0]
+for x in s:
+    if s.count(x) >= s.count(most_common):
+        most_common = x
+        
+print(most_common)
+
+
+
 print("=== Задача 7: Первое и последнее вхождение")
 text = input()
 
@@ -55,7 +67,7 @@ if text.count("f") == 0:
 elif text.count("f") == 1:
     print(text.find('f'))
 else:
-    print(text.find('f'), text.rfind('f'))
+    print(text.find('f'), text.rfind('f')) 
 
 
 print("=== Задача 8: Удаление фрагмента")
