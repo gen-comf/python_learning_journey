@@ -1,5 +1,5 @@
 # ===== STRINGS: BASIC =====
-# Stepik 9.4: https://stepik.org/lesson/303084
+# Stepik 9.5: https://stepik.org/lesson/303084
 
 print("=== Задача 1: Плохие комментарии")
 
