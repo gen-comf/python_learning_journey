@@ -67,6 +67,10 @@ for i in range(len(numbers)):
     # index 0: 10
     # index 1: 20
     # ...
+# превращение строки  ('4' '5' '1' '2' '3' '8') в список []
+seq = []
+for el in input().split():
+    seq.append(int(el))
 
 ⚠️ Частые ошибки
 # 1. Путаница значения/индекса
