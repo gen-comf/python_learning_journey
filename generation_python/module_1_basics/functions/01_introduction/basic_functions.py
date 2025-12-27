@@ -1,3 +1,6 @@
+# ===== STRINGS: BASIC =====
+# Stepik 13.1: https://stepik.org/lesson/331750
+
 # 1. Самая простая функция
 def say_hello():
     """Функция без параметров"""
