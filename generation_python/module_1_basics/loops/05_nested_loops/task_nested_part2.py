@@ -83,4 +83,32 @@ for i in range(1, n + 1):
 print(sum_factor)
 
 
-print("=== Задача 7: Простые числа")
+print("=== Задача 7: Подставь и узнаешь 💡")
+n, m = int(input()), int(input())
+flag = False
+for a in range(1, n):
+    for b in range(1, n):
+        for c in range(1, n):
+            if a + 3 * b + 2 *c == m:
+                flag = True
+                print(f'{a} + 3×{b} + 2×{c} = {m}')
+
+if not flag:
+    print("При заданных n и m решений не существует.") 
+
+
+
+print("=== Задача 8: Красивое время ✨")
+n = int(input())
+for h in range(0, 24):
+    for m in range(0, 60):
+        if h ** n == m:
+            if h < 10:
+                h = '0' + str(h)
+            if m < 10:
+                m = '0' + str(m)
+            print(h, m, sep=':')
+            h, m = int(h), int(m)       # Возвращаем исходные типы для продолжения цикла
+
+
+
