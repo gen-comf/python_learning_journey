@@ -29,3 +29,8 @@ generation_python/module_1_basics/loops/test_current.py
 
 # Универсальный тестовый файл (в корне strings/)
 generation_python/module_1_basics/strings/test_current.py
+
+# Временно не отображать папку с проектом клеточные автоматы
+cellular_automata/*
+python_learning_journey/generation_python/module_2_projects/cellular_automata/
+
