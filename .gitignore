@@ -20,6 +20,9 @@ Thumbs.db
 
 # Тестовые файлы для текущих задач (не коммитить)
 */test_current.py
+**/test_*.py
+**/*_test.py
+**/test_*
 
 # Персональные reminder-файлы
 context_reminder.md
